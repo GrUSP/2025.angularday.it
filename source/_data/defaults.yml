@@ -25,9 +25,9 @@ conference:
   title_pre: "Welcome to"
   title: "angularday 2025"
   city: "Verona"
-  date: 2023-11-24T09:00+01:00
+  date: 2025-11-21T09:00+01:00
   # Use the next field to override the date in the hero
-  hero_date_text: "Autumn 2025"
+  hero_date_text: "Friday 21st November 2025"
   countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
@@ -46,11 +46,11 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2023-09-16T23:59+01:00
+  cfp_deadline: 2025-06-15T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
@@ -59,9 +59,9 @@ conference:
   geninfo_description: "
   Mark your calendars for the 9th edition of angularday, Italy’s premier conference dedicated to Angular enthusiasts and developers! Organized by GrUSP, the masterminds behind renowned events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>, this conference promises to be an unforgettable gathering of top-tier talent from around the world.<br>&nbsp;<br>
   Every session will be in English, ensuring a global exchange of ideas, insights, and innovations. Whether you're a seasoned Angular expert or just starting your journey, this is your chance to gain cutting-edge knowledge, connect with industry leaders, and collaborate with peers.<br>&nbsp;<br>
-  
+
   <b>When and Where?</b>
-  Verona—the city of art, culture, and history—will host this hybrid event, giving you the option to join us in person or online. <b>Autumn 2025</b> is the time to watch, with the exact date to be announced soon!<br>&nbsp;<br>
+  Verona—the city of art, culture, and history—will host this hybrid event, giving you the option to join us in person or online. <b>The conference will happen on Friday, 21st November 2025.</b><br>&nbsp;<br>
   Follow us for updates, speaker announcements, and early-bird ticket offers. Don’t miss your chance to be part of the Angular event of the year!<br>&nbsp;<br>
   <b>angularday 2025: Learn. Share. Innovate.</b>"
   geninfo_about_label: "About"
@@ -146,7 +146,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
+  sponsors_visible: true
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
   community_partners: true
