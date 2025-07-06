@@ -153,7 +153,7 @@ days:
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "No Zone, No Problem - Building Angular Apps without Zone.js"
-        talk_description: "Angular no longer requires Zone.js, but dropping it isn't just a switch - it's a mindset shift. This session covers what really happens when you remove Zone.js, how to handle reactivity using Signals and manual strategies, and what this means for app architecture, testing, and performance. Discover how zoneless Angular changes the way we write code and reason about UI updates."
+        talk_description: "Angular no longer requires Zone.js, but dropping it isn't just a switch - it's a mindset shift.<br><br>This session covers:<br>• What really happens when you remove Zone.js<br>• How to handle reactivity using Signals and manual strategies<br>• What this means for app architecture, testing, and performance<br><br>Discover how zoneless Angular changes the way we write code and reason about UI updates."
         talk_video_url:
         speakers:
           brygida_fiejdasz: *brygida_fiejdasz
@@ -164,7 +164,7 @@ days:
         # start_datetime: 2022-05-19T11:05+02:00
         # end_datetime: 2022-05-19T11:45+02:00
         talk_title: "Fearless Microfrontends: Angular and Native Federation in Action"
-        talk_description: "Microfrontends are one of the emerging architectures for building scalable and modular applications, but they are often perceived as complex or oversized. In this session, we will analyze when to choose a microfrontend architecture and when to avoid it, with practical examples from the real world. We will use Angular together with Native Federation (@angular-architects/native-federation) to build an application composed of multiple independent microfrontends, which: - Share modules, pages and data between them. - Communicate via lightweight messaging. - Collaborate without sacrificing user experience. We will see how to manage the sharing of common libraries, how to keep applications performant, and how to organize a project so that it remains scalable and maintainable over time."
+        talk_description: "Microfrontends are one of the emerging architectures for building scalable and modular applications, but they are often perceived as complex or oversized.<br><br>In this session, we will:<br>• Analyze when to choose a microfrontend architecture and when to avoid it<br>• Use Angular together with Native Federation (@angular-architects/native-federation)<br>• Build applications with multiple independent microfrontends that:<br>&nbsp;&nbsp;- Share modules, pages and data between them<br>&nbsp;&nbsp;- Communicate via lightweight messaging<br>&nbsp;&nbsp;- Collaborate without sacrificing user experience<br><br>We will see how to manage the sharing of common libraries, keep applications performant, and organize projects for scalability and maintainability."
         talk_video_url:
         speakers:
           davide_senatore: *davide_senatore
@@ -175,7 +175,7 @@ days:
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Smarter UIs: Building Context-Aware AI Apps with Genkit & Angular"
-        talk_description: "AI isn't just about chatbots anymore — it's about building truly context-aware applications that feel intelligent and responsive. In this talk, we'll explore how to combine Genkit and Angular to create modern web applications powered by Large Language Models (LLMs). Whether you're building an assistant, a smart form, or a knowledge-driven experience, you'll leave with real-world patterns and code to start building smarter applications with Genkit and Angular."
+        talk_description: "AI isn't just about chatbots anymore — it's about building truly context-aware applications that feel intelligent and responsive.<br><br>In this talk, we'll explore:<br>• How to combine Genkit and Angular to create modern web applications<br>• Building applications powered by Large Language Models (LLMs)<br>• Real-world patterns for assistants, smart forms, and knowledge-driven experiences<br><br>Whether you're building an assistant, a smart form, or a knowledge-driven experience, you'll leave with practical code and patterns to start building smarter applications with Genkit and Angular."
         talk_video_url:
         speakers:
           lamis_chebbi: *lamis_chebbi
@@ -186,7 +186,7 @@ days:
         # start_datetime: 2022-05-19T11:05+02:00
         # end_datetime: 2022-05-19T11:45+02:00
         talk_title: "Design Patterns in the Frontend: Real-life Angular Architecture Lessons"
-        talk_description: "We often associate design patterns with backend development, but they can also be a powerful tool in frontend architecture — if used right. In this talk, I'll share how I've implemented the Strategy and Composite patterns in a real-world Angular application to solve complex UI and logic problems. We'll see how Angular's tools like ViewContainerRef, @Directive and custom decorators can bring these patterns to life smoothly, without adding unnecessary boilerplate. Expect practical code examples, architectural insights, and takeaways that you can bring back to your project. If you want to make your Angular apps more flexible, testable and future-proof, this talk is for you."
+        talk_description: "We often associate design patterns with backend development, but they can also be a powerful tool in frontend architecture — if used right.<br><br>In this talk, I'll share:<br>• How I've implemented the Strategy and Composite patterns in a real-world Angular application<br>• How to solve complex UI and logic problems<br>• How Angular's tools like ViewContainerRef, @Directive and custom decorators bring these patterns to life<br><br>Expect practical code examples, architectural insights, and takeaways you can bring back to your project. If you want to make your Angular apps more flexible, testable and future-proof, this talk is for you."
         talk_video_url:
         speakers:
           laura_pedenaud: *laura_pedenaud
@@ -197,7 +197,7 @@ days:
         # start_datetime: 2022-05-19T14:30+02:00
         # end_datetime: 2022-05-19T15:10+02:00
         talk_title: "Deep DI-ving: how Angular's DI system defeated a monolith"
-        talk_description: "The project had dozens of customizations for each client, and became an unmaintainable behemoth that held the entire team back. Breaking everything apart seemed impossible. But Angular has always had a solution: its advanced and flexible dependency injection system. We took a deep look into it, and with a little ingenuity we started to separate the customizations from the core, and create a deliver workflow that eased everyone's job. Environment providers, element providers, even the good old module providers: understanding the injector hierarchical system has been paramount to create a usable, flexible and powerful customization framework."
+        talk_description: "The project had dozens of customizations for each client, and became an unmaintainable behemoth that held the entire team back. Breaking everything apart seemed impossible.<br><br>But Angular has always had a solution: its advanced and flexible dependency injection system.<br><br>We took a deep look into it and discovered how to:<br>• Separate customizations from the core<br>• Create a delivery workflow that eased everyone's job<br>• Use Environment providers, element providers, and module providers<br><br>Understanding the injector hierarchical system has been paramount to create a usable, flexible and powerful customization framework."
         talk_video_url:
         speakers:
           massimo_artizzu: *massimo_artizzu
@@ -219,7 +219,7 @@ days:
         # start_datetime: 2022-05-19T15:10+02:00
         # end_datetime: 2022-05-19T15:50+02:00
         talk_title: "Exploring Angular's Resource API"
-        talk_description: "Async logic in Angular is evolving and it's about to get a lot simpler. With the Resource API, Angular gives you a signal-first way to handle everything from HTTP requests to real-time data streams. No subscriptions or async pipes needed. In this talk, we'll explore how to use resource(), streamingResource(), and httpResource() to manage async operations using signals. You'll see how these new primitives reduce boilerplate, improve readability, and fit naturally into Angular's growing reactivity model. Expect practical examples, use cases, and clear comparisons with observables and RxJS-based approaches."
+        talk_description: "Async logic in Angular is evolving and it's about to get a lot simpler. With the Resource API, Angular gives you a signal-first way to handle everything from HTTP requests to real-time data streams. No subscriptions or async pipes needed.<br><br>In this talk, we'll explore:<br>• How to use resource(), streamingResource(), and httpResource()<br>• Managing async operations using signals<br>• How these new primitives reduce boilerplate and improve readability<br>• How they fit naturally into Angular's growing reactivity model<br><br>Expect practical examples, use cases, and clear comparisons with observables and RxJS-based approaches."
         talk_video_url:
         speakers:
           soumaya_erradi: *soumaya_erradi
