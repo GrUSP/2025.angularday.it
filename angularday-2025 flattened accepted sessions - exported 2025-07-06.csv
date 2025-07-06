@@ -1,0 +1,138 @@
+Session Id,Title,Description,Owner,Owner Email,Other info about the talk,Level,Which topic(s) will your talk cover?,Owner Informed,Owner Confirmed,Room,Scheduled At,Scheduled Duration,Live Link,Recording Link,Speaker Id,FirstName,LastName,Email,TagLine,Bio,GitHub,Mastodon,Your experience,Please tell us something more about you,Which pronouns do you prefer?,Preferred pronouns,Country and city you'll be traveling from,Are you a organizer or member of a community?,Name of the community,Could your company sponsor the event?,I have read and accept the Code of Conduct,LinkedIn,Instagram,Profile Picture
+906658,Vibing the Future with Angular: Leveraging Gemini & Web-LLM for Intelligent Experiences,"The future of web is intelligent! Discover how to build next-gen Angular apps by leveraging the power of Google Gemini and on-device Web-LLM. This session dives into practical techniques for integrating Generative AI to create dynamic, intelligent user interfaces, demonstrated with a live streaming chat example. Beyond the UI, see how AI, including Gemini via VSCode extensions (like Cline), revolutionizes your development workflow, boosting productivity with smart coding assistance (""Vibe coding""). Join us to learn how to craft truly intelligent web experiences with Angular, from smarter features to faster development.",Muhammad Ahsan Ayaz,ahsan.ubitian@gmail.com,"Talk Outline / Structure:
+-Introduction (5 min)
+-- The Rise of Gen AI in Web Development.
+-- Why Angular is well-suited for AI integration.
+-- Brief overview: Google Gemini (Cloud API) vs. Web-LLM (On-device).
+-- Session Goals: Build AI features IN Angular & Use AI FOR Angular development.
+-Part 1: Building Intelligent Features IN Angular (20 min)
+-- Integrating Google Gemini:
+---- Setting up the Gemini SDK (or direct API calls) in an Angular Service.
+---- Handling API Keys securely (briefly touch on strategies).
+---- Core Concept: Building a Chat Interface Component.
+---- Live Demo 1: Implementing a basic request/response chat feature.
+-- Real-time Interaction:
+---- Implementing Streaming Responses from Gemini.
+---- Using RxJS to handle the stream and update the UI dynamically.
+---- Live Demo 2: Enhancing the chat UI with streaming.
+-- On-Device Power:
+---- Introduction to Web-LLM (e.g., via MLC-Chat or similar).
+---- Use cases for client-side LLMs (privacy, offline, latency).
+---- Brief conceptual demo or code walkthrough of Web-LLM integration.
+- Part 2: Using AI FOR Angular Development (15 min)
+---- AI as Your Coding Partner: Introduction to AI-assisted development tools.
+---- Focus: Gemini in VSCode (via Cline Extension):
+---- Setup and configuration.
+---- Live Demo 3:
+------ Code Generation (components, services, tests).
+------ Code Explanation (""What does this code do?"").
+------ Debugging Assistance.
+------ Refactoring suggestions.
+------ ""Vibe Coding"" - Iterative development with AI prompts.
+- Conclusion & Future (5 min)
+-- Recap: Dual benefits of AI for Angular apps and developers.
+-- Synergy: How these approaches complement each other.
+-- Future possibilities and considerations (ethics, prompt engineering).
+-- Call to Action: Resources to get started.
+- Q&A (5-10 min)",Intermediate,"AI, Google Gemini, Angular, Web-LLMs",3 Jul 2025 09:21 am,No,,,,,,0a638918-47b6-4d91-bc37-22d60212acfa,Muhammad Ahsan,Ayaz,ahsan.ubitian@gmail.com,"Author of the Angular Cookbook (2x), Educator, Google Developers Expert in Angular & a Software Architect","Muhammad Ahsan is a Google Developers Expert (GDE) in Angular, an author of 2 world-wide published books (Angular Cookbook), an Educator, and a Software Architect. 
+https://bio.link/codewithahsan",https://github.com/ahsanayaz,,I'm an experienced speaker,"I'm an author of 2 world-wide published books, and a Google acknowledged expert (Google Developers Expert) in Angular. I've spoken at many international conferences in the past.",he/him,,"Stockholm, Sweden",,,,Checked,https://linkedin.com/in/ahsanayaz,https://instagram.com/code.with.ahsan,https://sessionize.com/image/fe51-400o400o1-n4EJp7BVDAFmYCnbwogiW3.png
+955912,Design Patterns in the Frontend: Real-life Angular Architecture Lessons,"We often associate design patterns with backend development, but they can also be a powerful tool in frontend architecture — if used right.
+
+In this talk, I’ll share how I’ve implemented the Strategy and Composite patterns in a real-world Angular application to solve complex UI and logic problems. We’ll see how Angular’s tools like ViewContainerRef, @Directive and custom decorators can bring these patterns to life smoothly, without adding unnecessary boilerplate.
+
+Expect practical code examples, architectural insights, and takeaways that you can bring back to your project. If you want to make your Angular apps more flexible, testable and future-proof, this talk is for you.
+",Laura Pedenaud,laura.pedenaud@theodo.com,"Context & Motivation:
+Frontend complexity is growing fast, and codebases often become unmaintainable when architectural patterns are ignored. Design patterns — if adapted properly — help bring clarity, reusability, and clean separation of concerns even in UI code.
+
+Why I’m qualified:
+On my current project for a major client, I implemented the Strategy pattern to dynamically swap behavior in a complex workflow, and the Composite pattern to manage nested UI structures in a modular way — both using native Angular capabilities. This improved the architecture dramatically and reduced technical debt.
+
+Outline of the talk:
+
+Why frontend deserves good architecture too 
+
+Strategy Pattern in Angular
+
+- Real use case: dynamic behavior switching in a workflow engine
+
+- Implementation using ViewContainerRef.createComponent and decorators
+
+- Benefits in terms of testing and feature extension
+
+Composite Pattern in Angular 
+Guidelines: when (not) to use patterns 
+
+Q&A / Wrap-up
+
+Attendees will learn:
+
+How to apply real design patterns in a frontend Angular context
+
+How to use Angular tools to support advanced architectural ideas
+
+How to recognize patterns in their own codebase — and refactor toward clarity",Intermediate,"Angular Architecture, Design Patterns (Strategy, Composite), Dependency Injection & Component Dynamism",3 Jul 2025 09:21 am,3 Jul 2025 09:39 am,,,,,,5a86a3d0-e605-4a03-9728-1225760be33b,Laura,Pedenaud,laura.pedenaud@theodo.com,Software Engineer @Theodo Fintech,"Web developer at TheodoFintech for the past 2 years, I specialize in Angular and tackling complex frontend bugs. Passionate about debugging, I’ve developed a deep understanding of Angular’s internals, which I share through training sessions and technical articles. This knowledge-sharing has helped reduce recurring bugs by 50% across three teams, especially on large-scale projects with Bpifrance.
+Lately, I’ve been exploring frontend architecture and design patterns to make Angular apps more robust and scalable — and I love sharing those insights on stage. I'm also passionate about public speaking and regularly take part in eloquence competitions.",,,"uhm, I presented some talks but I don't feel quite experienced","I recently gave my first conference talk at ngBaguette, a French Angular conference focused on frontend best practices and advanced topics. I shared the stage with well-known Angular experts such as Matthieu Riegler, Rainer Hahnekamp, and Cédric Exbrayat.
+My talk was about advanced debugging in Angular, and it was very well received by the audience — you can watch it here: https://youtu.be/lUHBROQroAQ.
+
+That experience confirmed how much I enjoy sharing what I learn, especially when it comes to improving code quality and frontend architecture. Outside of tech, I also enjoy public speaking in a more general context, and I regularly participate in eloquence contests.",she/her,,"Paris, France","No, I'm not an organizer and I am not interested",,No,Checked,https://www.linkedin.com/in/laura-pedenaud/,,https://sessionize.com/image/f33c-400o400o1-WAvGDZWcJjCeVHzuG1Wo3C.jpg
+956230,Fearless Microfrontends: Angular and Native Federation in Action,"Microfrontends are one of the emerging architectures for building scalable and modular applications, but they are often perceived as complex or oversized. In this session, we will analyze when to choose a microfrontend architecture and when to avoid it, with practical examples from the real world. We will use Angular together with Native Federation (@angular-architects/native-federation) to build an application composed of multiple independent microfrontends, which:
+
+- Share modules, pages and data between them.
+- Communicate via lightweight messaging. - Collaborate without sacrificing user experience.
+
+We will see how to manage the sharing of common libraries, how to keep applications performant, and how to organize a project so that it remains scalable and maintainable over time.
+
+The session will be accompanied by concrete examples and practical advice, designed both for those who are exploring the idea of microfrontends and for those who want to adopt them in production.
+",Davide Senatore,info@ingeniumsoft.com,"La sessione si muoverà sulla falsariga dell'intervista che ho sostenuto con Manfred Steyer, creatore della libreria Angular @angular-architects/native-federation nella quale illusto un sistema di Micro Frontend collaborativi. Link qui: https://www.youtube.com/watch?v=F77YTgsz8Ls",Advanced,"Micro-Frontend, UI Composition",3 Jul 2025 09:21 am,3 Jul 2025 06:52 pm,,,,,,d4ef7d7d-0cd8-4677-b228-00af8229a983,Davide,Senatore,info@ingeniumsoft.com,Software Architect - Ingenium Software Engineering,"My passion for computing began in 1985, when I first encountered a Commodore 64. It was love at first sight, and I immediately knew what my professional path would be.
+
+Today, with the same enthusiasm I had as a kid, I develop software and design architectures that enhance people's productivity. I strongly believe in the value of collaboration and knowledge sharing principles I strive to pass on to those who attend my courses or work alongside me.
+
+Since 2006, I have contributed as a speaker at national conferences such as WPC, Codemotion, XE One Day, Google Dev Fest, and others. During these events, I present sessions on advanced development techniques and share insights from real-world cases encountered in my daily work.",,,I'm an experienced speaker,"https://www.youtube.com/watch?v=F77YTgsz8Ls
+https://www.youtube.com/watch?v=nHxT6eoLT4A
+https://www.youtube.com/watch?v=hczRArXER2k
+https://www.youtube.com/watch?v=HGquO9pX9Nk&t=29s
+https://www.youtube.com/watch?v=cidaDE7rdYU
+",he/him,,Treviso,,,,Checked,https://www.linkedin.com/in/davide-senatore-08108a2/,,https://sessionize.com/image/3205-400o400o1-HjuFVUEQPjZeA1uWVyx2Fx.jpg
+956359,Deep DI-ving: how Angular's DI system defeated a monolith,"The project had dozens of customizations for each client, and became an unmaintainable behemoth that held the entire team back. Breaking everything apart seemed impossible.
+But Angular has always had a solution: its advanced and flexible dependency injection system. We took a deep look into it, and with a little ingenuity we started to separate the customizations from the core, and create a deliver workflow that eased everyone's job. Environment providers, element providers, even the good old module providers: understanding the injector hierarchical system has been paramount to create a usable, flexible and powerful customization framework.",Massimo Artizzu,maxart.x@gmail.com,"It takes a real use case as a starting point to deep dive into Angular's dependency injection system, including all the new features of standalone components and module-less applications. ToC:
+- explanation of the use case;
+- proposed approach;
+- techical insights;
+- final implementation.",Intermediate,"Dependency injection, architecture, codebase management",3 Jul 2025 09:21 am,3 Jul 2025 09:28 am,,,,,,528c843e-8fcd-47a2-9ebd-4792fd2ae6be,Massimo,Artizzu,maxart.x@gmail.com,Architect,"Professionally grown when the Web was split among Internet Explorer, Netscape Navigator and... Macromedia Flash, I've always been passionate about JavaScript, CSS, HTML, web standards and the evolution of the platform. I firmly believes that libraries and frameworks come and go, but only the Web will remain.
+Please stop me if I'm talking about CSS for too long.",https://github.com/MaxArt2501/,https://mastodon.social/@MaxArt2501,I'm an experienced speaker,"- 8 times CSS Day speaker
+- 3 times JS Day speaker (1 feature + 2 lighning talks)
+- 2 times Codemotion speaker + 1 time panelist",he/him,,Imola,I'm not an organizer but I'm part of a community that might be interested,BolognaJS,,Checked,https://www.linkedin.com/in/massimoartizzu/,,https://sessionize.com/image/4306-400o400o1-3JbLTAqscQQw5BU4QjcTTE.jpg
+956622,Exploring Angular's Resource API,"Async logic in Angular is evolving and it’s about to get a lot simpler. With the  Resource API, Angular gives you a signal-first way to handle everything from HTTP requests to real-time data streams. No subscriptions or async pipes needed.
+In this talk, we’ll explore how to use resource(), streamingResource(), and httpResource() to manage async operations using signals. You’ll see how these new primitives reduce boilerplate, improve readability, and fit naturally into Angular’s growing reactivity model.
+Expect practical examples, use cases, and clear comparisons with observables and RxJS-based approaches.",Soumaya Erradi,serradi92@gmail.com,"- Why async in Angular needed a rethink
+- What resource(), streamingResource(), and httpResource() do and why they matter
+- Working with httpResource()
+- Handling real-time data
+- Demo: building a real Angular component using only Resource APIs for data handling
+- Comparison: RxJS vs Resources",Advanced,"resource api, signals",3 Jul 2025 09:21 am,3 Jul 2025 06:53 pm,,,,,,000e7162-82b5-4498-9cca-53d356e0b427,Soumaya,Erradi,serradi92@gmail.com,Senior Software Developer @ Atlantis,"I'm an experienced web developer and a passionate IT and electronics trainer, specializing in frontend development and enterprise applications built with Angular.
+I spend most of my time exploring what's new in the tech world and helping other developers improve their skills.
+As a conference speaker, I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for web3 applications.",,,I'm an experienced speaker,"List of my latest talks here: https://www.soumayaerradi.it/event
+with links to the recordings",she/her,,Brescia,"No, I'm not an organizer and I am not interested",,No,Checked,https://www.linkedin.com/in/soumaya-erradi,https://www.instagram.com/sumyerradi/,https://sessionize.com/image/6063-400o400o1-BccGxPMY8eGbpzFswnYqe2.jpg
+956913,Smarter UIs: Building Context-Aware AI Apps with Genkit & Angular,"AI isn’t just about chatbots anymore — it’s about building truly context-aware applications that feel intelligent and responsive. In this talk, we’ll explore how to combine Genkit and Angular to create modern web applications powered by Large Language Models (LLMs).
+
+
+
+Whether you're building an assistant, a smart form, or a knowledge-driven experience, you’ll leave with real-world patterns and code to start building smarter applications with Genkit and Angular.
+
+",Lamis Chebbi,chebbi.lamis@gmail.com,"We'll dive into:
+
+How to use Genkit to build and orchestrate AI workflows
+
+How to integrate context providers to improve the relevance and accuracy of your AI
+
+Using llms.txt to give your LLMs the right information at the right time
+
+Best practices for UI/UX when working with AI-generated content in Angular",Intermediate,"Angular, AI, GenKit",3 Jul 2025 09:21 am,3 Jul 2025 10:03 am,,,,,,9116cded-600f-4be6-8103-2e42c3064d47,Lamis,Chebbi,chebbi.lamis@gmail.com,"GDE for Angular, Senior Software Engineer, Speaker","
+Lamis is a Google DEveloper Expert. She's the author of ""Reactive Patterns in RxJS for Angular"" and ""Reactive patterns using RxJS and Angular Signals""
+She's an enthusiastic software engineer with a strong passion for the modern web, a member of WWCode Community, content creator, speaker and a trainer.
+She loves to share her knowledge about Angular through participating in workshops and organizing training sessions. Empowering women and students is one of her highest priorities. Besides Angular and the web, Lamis loves Music, traveling, chromotherapy and volunteering.
+ 
+ ",,,I'm an experienced speaker,,she/her,,Tunisia,,,,Checked,https://www.linkedin.com/in/lamis-chebbi-026368ab/,,https://sessionize.com/image/9a4b-400o400o1-9SGHDjfyoYAMTsucf1qfHJ.png
+956944,"No Zone, No Problem - Building Angular Apps without Zone.js","Angular no longer requires Zone.js, but dropping it isn’t just a switch - it’s a mindset shift. This session covers what really happens when you remove Zone.js, how to handle reactivity using Signals and manual strategies, and what this means for app architecture, testing, and performance. Discover how zoneless Angular changes the way we write code and reason about UI updates.
+",Brygida Fiejdasz,brydziaf@gmail.com,"This talk bridges the technical and mindset shift behind going zoneless in Angular. It explores how zoneless change detection works, how to manage it with Signals, and what it changes in real apps. Attendees will gain actionable knowledge to build and migrate performant Angular apps without Zone.js, with better control and more intentional code",Intermediate,Building angular app without zone.js,3 Jul 2025 09:21 am,3 Jul 2025 07:43 pm,,,,,,7548b1fa-6ff9-4fae-8a3d-cebd24a88492,Brygida,Fiejdasz,brydziaf@gmail.com,Lead of Frontend Competence Center in Avenga,"I'm an Angular GDE and Lead of the Frontend Competence Center at Avenga. Beyond that, I'm an Angular enthusiast who loves to code and enjoys sharing knowledge – on stage, at meetups, and on my YouTube channel “Speed Date with Angular”. In my free time, I'm an explorer and a proud cat mom.",,,I'm an experienced speaker,"https://www.youtube.com/@SpeedDateWithAngular
+https://myconf.dev/videos/angular-x-copilot-lightning-talk",she/her,,Katowice,"Yes, I am interested in being a community partner",ngKato,,Checked,https://www.linkedin.com/in/brygidafiejdasz/,https://www.instagram.com/speed_date_with_angular?igsh=MWNjYzB5Z3lqdmtyOQ==,https://sessionize.com/image/87f1-400o400o1-nDeSeTVKzGLf7FiwQfVFZU.jpg
