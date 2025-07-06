@@ -8,7 +8,7 @@ brygida_fiejdasz: &brygida_fiejdasz
   speaker_in_speaker_lists: true
   speaker_name: Brygida Fiejdasz
   speaker_pic_filename: brygida_fiejdasz.jpg
-  speaker_role: "Lead of Frontend Competence Center in Avenga"
+  speaker_role: "Lead of Frontend Competence Center  @ Avenga"
   speaker_bio: "I'm an Angular GDE and Lead of the Frontend Competence Center at Avenga. Beyond that, I'm an Angular enthusiast who loves to code and enjoys sharing knowledge – on stage, at meetups, and on my YouTube channel 'Speed Date with Angular'. In my free time, I'm an explorer and a proud cat mom."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -21,7 +21,7 @@ davide_senatore: &davide_senatore
   speaker_in_speaker_lists: true
   speaker_name: Davide Senatore
   speaker_pic_filename: davide_senatore.jpg
-  speaker_role: "Software Architect - Ingenium Software Engineering"
+  speaker_role: "Software Architect @ Ingenium"
   speaker_bio: "My passion for computing began in 1985, when I first encountered a Commodore 64. It was love at first sight, and I immediately knew what my professional path would be. Today, with the same enthusiasm I had as a kid, I develop software and design architectures that enhance people's productivity. I strongly believe in the value of collaboration and knowledge sharing principles I strive to pass on to those who attend my courses or work alongside me. Since 2006, I have contributed as a speaker at national conferences such as WPC, Codemotion, XE One Day, Google Dev Fest, and others. During these events, I present sessions on advanced development techniques and share insights from real-world cases encountered in my daily work."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -34,8 +34,8 @@ lamis_chebbi: &lamis_chebbi
   speaker_in_speaker_lists: true
   speaker_name: Lamis Chebbi
   speaker_pic_filename: lamis_chebbi.png
-  speaker_role: "GDE for Angular, Senior Software Engineer, Speaker"
-  speaker_bio: "Lamis is a Google DEveloper Expert. She's the author of 'Reactive Patterns in RxJS for Angular' and 'Reactive patterns using RxJS and Angular Signals' She's an enthusiastic software engineer with a strong passion for the modern web, a member of WWCode Community, content creator, speaker and a trainer. She loves to share her knowledge about Angular through participating in workshops and organizing training sessions. Empowering women and students is one of her highest priorities. Besides Angular and the web, Lamis loves Music, traveling, chromotherapy and volunteering."
+  speaker_role: "Senior Software Engineer @ Vermeg"
+  speaker_bio: "I'm a Google Developer Expert for Angular and the author of 'Reactive Patterns in RxJS for Angular' and 'Reactive patterns using RxJS and Angular Signals'. I'm an enthusiastic software engineer with a strong passion for the modern web, a member of WWCode Community, content creator, speaker and a trainer. I love to share my knowledge about Angular through participating in workshops and organizing training sessions. Empowering women and students is one of my highest priorities. Besides Angular and the web, I love Music, traveling, chromotherapy and volunteering."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -47,8 +47,8 @@ laura_pedenaud: &laura_pedenaud
   speaker_in_speaker_lists: true
   speaker_name: Laura Pedenaud
   speaker_pic_filename: laura_pedenaud.jpg
-  speaker_role: "Software Engineer @Theodo Fintech"
-  speaker_bio: "Web developer at TheodoFintech for the past 2 years, I specialize in Angular and tackling complex frontend bugs. Passionate about debugging, I've developed a deep understanding of Angular's internals, which I share through training sessions and technical articles. This knowledge-sharing has helped reduce recurring bugs by 50% across three teams, especially on large-scale projects with Bpifrance. Lately, I've been exploring frontend architecture and design patterns to make Angular apps more robust and scalable — and I love sharing those insights on stage. I'm also passionate about public speaking and regularly take part in eloquence competitions."
+  speaker_role: "Software Engineer @ Theodo Fintech"
+  speaker_bio: "I'm a web developer at TheodoFintech for the past 2 years, specializing in Angular and tackling complex frontend bugs. Passionate about debugging, I've developed a deep understanding of Angular's internals, which I share through training sessions and technical articles. This knowledge-sharing has helped reduce recurring bugs by 50% across three teams, especially on large-scale projects with Bpifrance. Lately, I've been exploring frontend architecture and design patterns to make Angular apps more robust and scalable — and I love sharing those insights on stage. I'm also passionate about public speaking and regularly take part in eloquence competitions."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -60,8 +60,8 @@ massimo_artizzu: &massimo_artizzu
   speaker_in_speaker_lists: true
   speaker_name: Massimo Artizzu
   speaker_pic_filename: massimo_artizzu.jpg
-  speaker_role: "Architect"
-  speaker_bio: "Professionally grown when the Web was split among Internet Explorer, Netscape Navigator and... Macromedia Flash, I've always been passionate about JavaScript, CSS, HTML, web standards and the evolution of the platform. I firmly believes that libraries and frameworks come and go, but only the Web will remain. Please stop me if I'm talking about CSS for too long."
+  speaker_role: "Software Engineer @ Antreem"
+  speaker_bio: "I professionally grew up when the Web was split among Internet Explorer, Netscape Navigator and... Macromedia Flash. I've always been passionate about JavaScript, CSS, HTML, web standards and the evolution of the platform. I firmly believe that libraries and frameworks come and go, but only the Web will remain. Please stop me if I'm talking about CSS for too long."
   speaker_github_url: "https://github.com/MaxArt2501/"
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -74,7 +74,7 @@ muhammad_ahsan_ayaz: &muhammad_ahsan_ayaz
   speaker_name: Muhammad Ahsan Ayaz
   speaker_pic_filename: muhammad_ahsan_ayaz.png
   speaker_role: "Author of the Angular Cookbook (2x), Educator, Google Developers Expert in Angular & a Software Architect"
-  speaker_bio: "Muhammad Ahsan is a Google Developers Expert (GDE) in Angular, an author of 2 world-wide published books (Angular Cookbook), an Educator, and a Software Architect. https://bio.link/codewithahsan"
+  speaker_bio: "I'm a Google Developers Expert (GDE) in Angular, an author of 2 world-wide published books (Angular Cookbook), an Educator, and a Software Architect. https://bio.link/codewithahsan"
   speaker_github_url: "https://github.com/ahsanayaz"
   speaker_twitter_url: ""
   speaker_instagram_url: "https://instagram.com/code.with.ahsan"
@@ -146,23 +146,81 @@ days:
         talk_title: "Happy Hour"
         service_icon: "glass"
 
-      # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-      titolotalk1:
+      # talks
+      no_zone_no_problem:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "No Zone, No Problem - Building Angular Apps without Zone.js"
+        talk_description: "Angular no longer requires Zone.js, but dropping it isn't just a switch - it's a mindset shift. This session covers what really happens when you remove Zone.js, how to handle reactivity using Signals and manual strategies, and what this means for app architecture, testing, and performance. Discover how zoneless Angular changes the way we write code and reason about UI updates."
         talk_video_url:
         speakers:
+          brygida_fiejdasz: *brygida_fiejdasz
+      
+      fearless_microfrontends:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T11:05+02:00
+        # end_datetime: 2022-05-19T11:45+02:00
+        talk_title: "Fearless Microfrontends: Angular and Native Federation in Action"
+        talk_description: "Microfrontends are one of the emerging architectures for building scalable and modular applications, but they are often perceived as complex or oversized. In this session, we will analyze when to choose a microfrontend architecture and when to avoid it, with practical examples from the real world. We will use Angular together with Native Federation (@angular-architects/native-federation) to build an application composed of multiple independent microfrontends, which: - Share modules, pages and data between them. - Communicate via lightweight messaging. - Collaborate without sacrificing user experience. We will see how to manage the sharing of common libraries, how to keep applications performant, and how to organize a project so that it remains scalable and maintainable over time."
+        talk_video_url:
+        speakers:
+          davide_senatore: *davide_senatore
+      
+      smarter_uis_genkit:
+        item_type: "talk"
+        track: *track_2
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Smarter UIs: Building Context-Aware AI Apps with Genkit & Angular"
+        talk_description: "AI isn't just about chatbots anymore — it's about building truly context-aware applications that feel intelligent and responsive. In this talk, we'll explore how to combine Genkit and Angular to create modern web applications powered by Large Language Models (LLMs). Whether you're building an assistant, a smart form, or a knowledge-driven experience, you'll leave with real-world patterns and code to start building smarter applications with Genkit and Angular."
+        talk_video_url:
+        speakers:
+          lamis_chebbi: *lamis_chebbi
+      
+      design_patterns_frontend:
+        item_type: "talk"
+        track: *track_2
+        # start_datetime: 2022-05-19T11:05+02:00
+        # end_datetime: 2022-05-19T11:45+02:00
+        talk_title: "Design Patterns in the Frontend: Real-life Angular Architecture Lessons"
+        talk_description: "We often associate design patterns with backend development, but they can also be a powerful tool in frontend architecture — if used right. In this talk, I'll share how I've implemented the Strategy and Composite patterns in a real-world Angular application to solve complex UI and logic problems. We'll see how Angular's tools like ViewContainerRef, @Directive and custom decorators can bring these patterns to life smoothly, without adding unnecessary boilerplate. Expect practical code examples, architectural insights, and takeaways that you can bring back to your project. If you want to make your Angular apps more flexible, testable and future-proof, this talk is for you."
+        talk_video_url:
+        speakers:
+          laura_pedenaud: *laura_pedenaud
+      
+      deep_di_ving:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T14:30+02:00
+        # end_datetime: 2022-05-19T15:10+02:00
+        talk_title: "Deep DI-ving: how Angular's DI system defeated a monolith"
+        talk_description: "The project had dozens of customizations for each client, and became an unmaintainable behemoth that held the entire team back. Breaking everything apart seemed impossible. But Angular has always had a solution: its advanced and flexible dependency injection system. We took a deep look into it, and with a little ingenuity we started to separate the customizations from the core, and create a deliver workflow that eased everyone's job. Environment providers, element providers, even the good old module providers: understanding the injector hierarchical system has been paramount to create a usable, flexible and powerful customization framework."
+        talk_video_url:
+        speakers:
+          massimo_artizzu: *massimo_artizzu
+      
+      # vibing_future_angular:
+      #   item_type: "talk"
+      #   track: *track_2
+      #   # start_datetime: 2022-05-19T14:30+02:00
+      #   # end_datetime: 2022-05-19T15:10+02:00
+      #   talk_title: "Vibing the Future with Angular: Leveraging Gemini & Web-LLM for Intelligent Experiences"
+      #   talk_description: "The future of web is intelligent! Discover how to build next-gen Angular apps by leveraging the power of Google Gemini and on-device Web-LLM. This session dives into practical techniques for integrating Generative AI to create dynamic, intelligent user interfaces, demonstrated with a live streaming chat example. Beyond the UI, see how AI, including Gemini via VSCode extensions (like Cline), revolutionizes your development workflow, boosting productivity with smart coding assistance (\"Vibe coding\"). Join us to learn how to craft truly intelligent web experiences with Angular, from smarter features to faster development."
+      #   talk_video_url:
+      #   speakers:
+      #     muhammad_ahsan_ayaz: *muhammad_ahsan_ayaz
+      
+      resource_api_exploration:
+        item_type: "talk"
+        track: *track_2
+        # start_datetime: 2022-05-19T15:10+02:00
+        # end_datetime: 2022-05-19T15:50+02:00
+        talk_title: "Exploring Angular's Resource API"
+        talk_description: "Async logic in Angular is evolving and it's about to get a lot simpler. With the Resource API, Angular gives you a signal-first way to handle everything from HTTP requests to real-time data streams. No subscriptions or async pipes needed. In this talk, we'll explore how to use resource(), streamingResource(), and httpResource() to manage async operations using signals. You'll see how these new primitives reduce boilerplate, improve readability, and fit naturally into Angular's growing reactivity model. Expect practical examples, use cases, and clear comparisons with observables and RxJS-based approaches."
+        talk_video_url:
+        speakers:
+          soumaya_erradi: *soumaya_erradi
           
